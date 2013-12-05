@@ -6,11 +6,11 @@ class Example
 {
     public function min($a, $b)
     {
-        return 10;
+        return min($a, $b);
     }
 
     public function max($a, $b)
     {
-        return 100;
+        return max($a, $b);
     }
 } 
